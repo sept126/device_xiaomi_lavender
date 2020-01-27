@@ -67,9 +67,9 @@ static void init_setup_model_properties()
             break;
 
     if (buf.find("India") != std::string::npos) {
-        property_override_dual("ro.product.model", "ro.vendor.product.model", "Redmi Note 5 Pro");
+        property_override_dual("ro.product.system.model", "ro.product.vendor.model", "Redmi Note 5 Pro");
     } else {
-        property_override_dual("ro.product.model", "ro.vendor.product.model",  "Redmi Note 5");
+        property_override_dual("ro.product.system.model", "ro.product.vendor.model",  "Redmi Note 5");
     }
 
     fin.close();
