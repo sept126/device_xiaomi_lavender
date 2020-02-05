@@ -13,5 +13,19 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+#
+# This file sets variables that control the way modules are built
+# thorughout the system. It should not be used to conditionally
+# disable makefiles (the proper mechanism to control what gets
+# included in a build is to use PRODUCT_PACKAGES in a product
+# definition file).
+#
+
+# inherit lavender aosip device config
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/bootleg_whyred.mk
+    $(LOCAL_DIR)/bliss_lavender.mk
+
+COMMON_LUNCH_CHOICES := \
+    bliss_lavender-eng \
+    bliss_lavender-userdebug \
+    bliss_lavender-user

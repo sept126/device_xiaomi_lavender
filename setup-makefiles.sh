@@ -18,6 +18,7 @@
 
 set -e
 
+# Required!
 DEVICE=lavender
 VENDOR=xiaomi
 
@@ -29,7 +30,7 @@ if [[ ! -d "$MY_DIR" ]]; then MY_DIR="$PWD"; fi
 
 BOOTLEG_ROOT="$MY_DIR"/../../..
 
-HELPER="$BOOTLEG_ROOT"/vendor/bootleggers/build/tools/extract_utils.sh
+HELPER="$BOOTLEG_ROOT"/vendor/bliss/build/tools/extract_utils.sh
 if [ ! -f "$HELPER" ]; then
     echo "Unable to find helper script at $HELPER"
     exit 1
@@ -37,7 +38,7 @@ fi
 . "$HELPER"
 
 # Initialize the helper
-setup_vendor "$DEVICE" "$VENDOR" "$BOOTLEG_ROOT"
+setup_vendor "$DEVICE" "$VENDOR" "$BLISS_ROOT"
 
 # Copyright headers and guards
 write_headers
