@@ -1,23 +1,26 @@
-# Device Tree for Xiaomi Redmi Note 5 / Note 5 Pro (whyred)
+Copyright (C) 2019 Android Open Source Project
 
-## Spec Sheet
+The Redmi Note 7 (codenamed _"lavender"_) is a high-end mid-range smartphone from Xiaomi.
 
-| Feature                 | Specification (Note 5)            | Specification (Note 5 Pro)        |
-| :---------------------- | :-------------------------------- | :-------------------------------- |
-| CPU                     | 8x Qualcomm® Kryo™ 260 CPU        | ""                                |
-| Chipset                 | Qualcomm Snapdragon 636           | ""                                |
-| GPU                     | Adreno 509                        | ""                                |
-| Memory                  | 3/4/6 GB                          | 4/6 GB                            |
-| Shipped Android Version | 8.1.0                             | 7.1.1                             |
-| Storage                 | 32/64 GB eMMC 5.1 flash storage   | 64 GB eMMC 5.1 flash storage      |
-| MicroSD                 | Up to 128 GB                      | ""                                |
-| Battery                 | 4000 mAh (non-removable)          | ""                                |
-| Dimensions              | 158.6 x 75.4 x 8.05 mm            | ""                                |
-| Display                 | 2160x1080 pixels, 5.99 (~403 PPI) | ""                                |
-| Rear Camera             | 12 MP + 5 MP, LED flash           | ""                                |
-| Front Camera            | 13 MP                             | 20 MP                             |
-| Release Date            | 14 February 2018                  | ""                                |
+Xiaomi Redmi Note 7 was announced and released in January 2019.
 
-## Device Picture
+## Device specifications
 
-![Redmi Note 5](http://i01.appmifile.com/webfile/globalimg/2018/02141/phone-black.jpg "Redmi Note 5")
+| Device       | Xiaomi Redmi Note 7                             |
+| -----------: | :---------------------------------------------- |
+| SoC          | Qualcomm SDM660 Snapdragon 660                  |
+| CPU          | 8x Qualcomm® Kryo™ 260 up to 1.8GHz             |
+| GPU          | Adreno 512                                      |
+| Memory       | 3GB / 4GB RAM (LPDDR4X)                         |
+| Shipped Android version | 9.0.0                                |
+| Storage      | 64GB eMMC 5.1 flash storage                     |
+| Battery      | Non-removable Li-Po 4000 mAh                    |
+| Dimensions   | 159.21 x 75.21 x 8.1 mm                         |
+| Display      | 2340 x 1080 (19.5:9), 6.3 inch                  |
+| Rear camera 1 | 12 MP, f/2.2, (wide), 1/2.9", 1.25µm, PDAF (Indian) or 48 MP, f/1.8, (wide), 1/2", 0.8µm, PDAF (Indian/Global)    | 
+| Rear camera 2 | 2 MP, f/2.4, depth sensor or 5 MP, f/2.2, depth sensor                    |
+| Front camera | 13 MP, f/2.0, 1.12µm|
+
+## Device picture
+
+![Xiaomi Redmi Note 7](https://i01.appmifile.com/webfile/globalimg/products/pc/redmi-note7/gallery1-2.jpg)
